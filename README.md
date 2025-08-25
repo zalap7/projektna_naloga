@@ -14,7 +14,7 @@ Uporabnik mora naložiti sledeče knjižnice:
 - `selenium`,
 - `time`.
 
-Odprite datoteko z razširitvijo .ipynb (Jupyter Notebook). Najdeto jo v isti mapi kakor README.md datoteko. Windows uporabniki lahko datoteko zaženete z ukazom 'py -m notebook' v mapi, kjer se nahaja .ipynb datoteka. Nato zaženite vsak korak v .ipynb datoteki posamezno.
+Odprite datoteko z razširitvijo `.ipynb` (Jupyter Notebook). Najdeto jo v isti mapi kakor README.md datoteko. Windows uporabniki lahko datoteko zaženete z ukazom 'py -m notebook' v mapi, kjer se nahaja `.ipynb` datoteka. Nato zaženite vsak korak v `.ipynb` datoteki posamezno.
 
 ## Opis datotek
 
