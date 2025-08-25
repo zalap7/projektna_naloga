@@ -1,8 +1,6 @@
-from pridobi_podatke import getIMDBdata
 import matplotlib.pyplot as plt
 
-def zdruzi_ocene_po_zanrih():
-    naslovi, ocene, stevilo_glasov, leto_izdaje, zanri = getIMDBdata()
+def zdruzi_ocene_po_zanrih(ocene, zanri):
 
     zanri_vsi = []
     sestevek_ocen = []
@@ -39,6 +37,3 @@ def zdruzi_ocene_po_zanrih():
     plt.show()
     
     
-
-
-zdruzi_ocene_po_zanrih()

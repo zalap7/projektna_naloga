@@ -1,8 +1,6 @@
-from pridobi_podatke import getIMDBdata
 import matplotlib.pyplot as plt
 
-def najbolje_ocenjeni():
-    naslovi, ocene, stevilo_glasov, leto_izdaje, zanr = getIMDBdata()
+def najbolje_ocenjeni(naslovi,ocene,leto_izdaje):
 
     najboljsi = {}
 
@@ -53,7 +51,6 @@ def najbolje_ocenjeni():
     plt.show()
 
 
-najbolje_ocenjeni()
 
 
 

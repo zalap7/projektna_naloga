@@ -1,8 +1,6 @@
-from pridobi_podatke import getIMDBdata
 import matplotlib.pyplot as plt
 
-def zdruzi_ocene_po_letih():
-    naslovi, ocene, stevilo_glasov, leto_izdaje, zanr = getIMDBdata()
+def zdruzi_ocene_po_letih(naslovi,ocene,leto_izdaje):
 
     sestevek_ocen = []
     stevilo_vseh_let = []
@@ -39,8 +37,5 @@ def zdruzi_ocene_po_letih():
     plt.tight_layout()
     plt.show()
     
-    
 
-
-zdruzi_ocene_po_letih()
 
