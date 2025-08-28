@@ -14,7 +14,7 @@ Naložite sledeče knjižnice:
 - `selenium`,
 - `time`.
 
-V datoteki `pridobi_podatke.py` nastavite pod do chromedriver.exe in pot do Google Chrome glede na svoj računalnik.
+V datoteki `pridobi_podatke.py` nastavite pot do chromedriver.exe in pot do Google Chrome glede na svoj računalnik.
 Odprite datoteko z razširitvijo `.ipynb` (Jupyter Notebook). Najdeto jo v isti mapi kakor README.md datoteko. Windows uporabniki lahko datoteko zaženete z ukazom 'py -m notebook' v mapi, kjer se nahaja `.ipynb` datoteka. Nato zaženite vsak korak v `.ipynb` datoteki posamezno.
 
 ## Opis datotek
