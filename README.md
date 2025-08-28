@@ -8,12 +8,13 @@ V sledeči projektni nalogi sem predstavila analizo lestvice 250 najbolje ocenje
 
 ## Navodila
 
-Uporabnik mora naložiti sledeče knjižnice:
+Naložite sledeče knjižnice:
 - `pandas`,
 - `matplotlib`,
 - `selenium`,
 - `time`.
 
+V datoteki `pridobi_podatke.py` nastavite pod do chromedriver.exe in pot do Google Chrome glede na svoj računalnik.
 Odprite datoteko z razširitvijo `.ipynb` (Jupyter Notebook). Najdeto jo v isti mapi kakor README.md datoteko. Windows uporabniki lahko datoteko zaženete z ukazom 'py -m notebook' v mapi, kjer se nahaja `.ipynb` datoteka. Nato zaženite vsak korak v `.ipynb` datoteki posamezno.
 
 ## Opis datotek
