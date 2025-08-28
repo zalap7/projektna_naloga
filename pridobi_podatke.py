@@ -6,27 +6,25 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 def getIMDBdata():
-    # Path to your chromedriver.exe
+    # Pot do chromedriver.exe
     POT_DO_CHROME_GONILNIKA = r'C:\chromedriver.exe'
 
-    # Dodatno: pot do Google Chrome (ker ni v standardni lokaciji)
+    # Pot do Google Chrome
     chrome_nastavitve = Options()
     chrome_nastavitve.binary_location = r'C:\Users\Zala\AppData\Local\Google\Chrome\Application\chrome.exe'
 
-    # Set up WebDriver
+    # Nastavi WebDriver
     service = Service(POT_DO_CHROME_GONILNIKA)
     driver = webdriver.Chrome(service=service, options=chrome_nastavitve)
     
     try:
-        # Open IMDb Top 250 movies page
+        # Odpri stran
         driver.get('https://www.imdb.com/chart/top/')
 
-        # Wait for page to load (simple sleep for demo, better to use explicit waits)
         time.sleep(10)
 
         driver.find_element(By.CSS_SELECTOR, '.ddtuHe').click()
 
-        # Find all movie rows
         filmi = driver.find_elements(By.CSS_SELECTOR, '.ipc-metadata-list-summary-item')
         
         naslovi = []
@@ -43,7 +41,6 @@ def getIMDBdata():
                 ActionChains(driver).scroll_by_amount(0,premakni_y_za_px).perform()
             premakni_y_za_px = int(film.rect['y'])
             naslov = film.find_element(By.CSS_SELECTOR, 'div.ipc-title').text
-            # Remove the number at the start of the string
             naslovi.append(naslov[naslov.find(" ")+1:])
             ocene.append(film.find_element(By.CSS_SELECTOR, '.ipc-rating-star--rating').text)
             st_glasov.append(film.find_element(By.CSS_SELECTOR, '.ipc-rating-star--voteCount').text.replace("(", "").replace(")",""))
