@@ -4,7 +4,7 @@
 
  ## Uvod in ideja
 
-V sledeči projektni nalogi sem predstavila analizo lestvice 250 najbolje ocenjenih filmov, ki sem jo pridobila s spletne strani [IMDb](https://www.imdb.com/chart/top/). Zanimali so me najbolj priljubljeni filmi glede na čas nastanka ter žanra. 
+V sledeči projektni nalogi sem predstavila analizo lestvice 250 najbolje ocenjenih filmov, ki sem jo pridobila s spletne strani [IMDb](https://www.imdb.com/chart/top/). Zanimali so me najbolj priljubljeni filmi glede na čas nastanka ter žanr. 
 
 ## Navodila
 
