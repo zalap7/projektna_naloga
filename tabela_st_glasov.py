@@ -32,7 +32,7 @@ def tabela_milijon_plus():
     df_filtriran = df[df['Število glasov'] > 2_000_000]
 
     df_filtriran.to_csv('imdb_movies_2Mplus.csv', index=False, encoding='utf-8')
-    print("📄 CSV 'imdb_movies_2Mplus.csv' z več kot 1M glasovi je bil ustvarjen.")
+    print("CSV 'imdb_movies_2Mplus.csv' z več kot 2M glasovi je bil ustvarjen.")
 
 tabela_milijon_plus()
 

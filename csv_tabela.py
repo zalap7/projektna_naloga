@@ -14,7 +14,7 @@ def tabela():
     })
 
     df.to_csv('imdb_movies.csv', index=False, encoding='utf-8')
-    print("📄 CSV datoteka 'imdb_movies.csv' je bila uspešno ustvarjena.")
+    print("CSV datoteka 'imdb_movies.csv' je bila uspešno ustvarjena.")
 
 tabela()
 
